@@ -112,7 +112,9 @@ a:hover {
     padding-left: 5em;
   }
   .radio-switch:focus-within label:first-of-type::after {
-    box-shadow: 0 0 0 2px var(--white), 0 0 0 4px var(--marina);
+    box-shadow:
+      0 0 0 2px var(--white),
+      0 0 0 4px var(--marina);
   }
   .radio-switch label:first-of-type::before,
   .radio-switch label:first-of-type::after {
