@@ -184,7 +184,7 @@ ul svg {
 }
 .main-article img {
   object-fit: cover;
-  object-position: top;
+  object-position: center;
   height: 175px;
   width: 300px;
   overflow: hidden;
@@ -285,8 +285,8 @@ footer {
   .main-article img {
     max-height: 400px;
     margin: 0 0 0 auto;
-    object-fit: none;
-    object-position: none;
+    object-fit: cover;
+    object-position: center;
     height: auto;
     width: auto;
     overflow: auto;
